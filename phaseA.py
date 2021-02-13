@@ -28,8 +28,7 @@ for city in userdata['City']:
         city_tempa = browser.find_element_by_xpath("//span[@class='CurrentConditions--tempValue--3KcTQ']")
         print(city_tempa.text)
         degree = city_tempa.text
-        degree = degree.split('°')
-        degree = degree[0]
+        degree = degree.rstrip('°')
         print(degree)
         city_temp.append(degree)
 
