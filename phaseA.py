@@ -23,7 +23,6 @@ for city in userdata['City']:
         search_element.click()
         city_searchbutton = WebDriverWait(browser, 15).until(EC.element_to_be_clickable((By.XPATH, "//div/button[@id='LocationSearch_listbox-0']" )))
         city_searchbutton.click()
-        time.sleep(2)
         city_page = WebDriverWait(browser, 20).until(EC.presence_of_element_located((By.CSS_SELECTOR, "h1[class='CurrentConditions--location--1Ayv3']")))
         city_tempa = browser.find_element_by_xpath("//span[@class='CurrentConditions--tempValue--3KcTQ']")
         print(city_tempa.text)
