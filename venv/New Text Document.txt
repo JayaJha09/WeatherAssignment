@@ -1,0 +1,70 @@
+Microsoft Windows [Version 6.3.9600]
+(c) 2013 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd C:\Users\Acer pc\PycharmProjects\pythonProject\venv
+
+C:\Users\Acer pc\PycharmProjects\pythonProject\venv>activate.bat
+'activate.bat' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\Acer pc\PycharmProjects\pythonProject\venv>cd Scripts
+
+C:\Users\Acer pc\PycharmProjects\pythonProject\venv\Scripts>activate.bat
+
+(venv) C:\Users\Acer pc\PycharmProjects\pythonProject\venv\Scripts>pip install r
+equests
+Collecting requests
+  Downloading requests-2.25.1-py2.py3-none-any.whl (61 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 61 kB 556 kB/s
+Collecting chardet<5,>=3.0.2
+  Downloading chardet-4.0.0-py2.py3-none-any.whl (178 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 178 kB 1.6 MB/s
+Collecting idna<3,>=2.5
+  Downloading idna-2.10-py2.py3-none-any.whl (58 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 58 kB 418 kB/s
+Collecting certifi>=2017.4.17
+  Downloading certifi-2020.12.5-py2.py3-none-any.whl (147 kB)
+     |¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦¦| 147 kB 6.4 MB/s
+Requirement already satisfied: urllib3<1.27,>=1.21.1 in c:\users\acer pc\pycharm
+projects\pythonproject\venv\lib\site-packages (from requests) (1.26.3)
+Installing collected packages: idna, chardet, certifi, requests
+Successfully installed certifi-2020.12.5 chardet-4.0.0 idna-2.10 requests-2.25.1
+
+
+(venv) C:\Users\Acer pc\PycharmProjects\pythonProject\venv\Scripts>pip install j
+son
+WARNING: Retrying (Retry(total=4, connect=None, read=None, redirect=None, status
+=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.con
+nection.HTTPSConnection object at 0x000000031926FD30>: Failed to establish a new
+ connection: [Errno 11001] getaddrinfo failed')': /simple/json/
+WARNING: Retrying (Retry(total=3, connect=None, read=None, redirect=None, status
+=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.con
+nection.HTTPSConnection object at 0x000000031926FFA0>: Failed to establish a new
+ connection: [Errno 11001] getaddrinfo failed')': /simple/json/
+WARNING: Retrying (Retry(total=2, connect=None, read=None, redirect=None, status
+=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.con
+nection.HTTPSConnection object at 0x00000003192931F0>: Failed to establish a new
+ connection: [Errno 11001] getaddrinfo failed')': /simple/json/
+WARNING: Retrying (Retry(total=1, connect=None, read=None, redirect=None, status
+=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.con
+nection.HTTPSConnection object at 0x0000000319293400>: Failed to establish a new
+ connection: [Errno 11001] getaddrinfo failed')': /simple/json/
+WARNING: Retrying (Retry(total=0, connect=None, read=None, redirect=None, status
+=None)) after connection broken by 'NewConnectionError('<pip._vendor.urllib3.con
+nection.HTTPSConnection object at 0x0000000319293610>: Failed to establish a new
+ connection: [Errno 11001] getaddrinfo failed')': /simple/json/
+ERROR: Could not find a version that satisfies the requirement json
+ERROR: No matching distribution found for json
+
+(venv) C:\Users\Acer pc\PycharmProjects\pythonProject\venv\Scripts>pip install s
+elenium
+Requirement already satisfied: selenium in c:\users\acer pc\pycharmprojects\pyth
+onproject\venv\lib\site-packages (3.141.0)
+Requirement already satisfied: urllib3 in c:\users\acer pc\pycharmprojects\pytho
+nproject\venv\lib\site-packages (from selenium) (1.26.3)
+
+(venv) C:\Users\Acer pc\PycharmProjects\pythonProject\venv\Scripts>
